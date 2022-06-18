@@ -10,14 +10,16 @@ v16.15.0
 ### Setup
 ---
  $ npm install
+ 
  To install all dependences used in this application
 
 ---
 Create a Database `ReferaApi` in mysql Dashboard
 
 ---
-$ cd server && node_modules/.bin/sequelize db:migrate      
-To create tables
+$ cd server && node_modules/.bin/sequelize db:migrate
+
+To create tables in database automatically
 
 ---
 #### To Run Application
@@ -57,6 +59,7 @@ And I selected the Enable Automatic Deploys option, this will make every time I 
 
 
 Database structure considering the above points
+
 [Database Structure]
 
 <img src="https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png" width="300px" heigth="300px">
@@ -85,4 +88,5 @@ In the routes/index file I would add the endpoints referring to the created cont
 
 ---
 ###### Difficulties:
+
 I had some difficulties in building the api but nothing that I couldn't solve, but I couldn't return the category name in the table.
