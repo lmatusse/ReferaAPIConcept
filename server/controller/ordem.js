@@ -8,38 +8,14 @@ module.exports = {
 
     async getOrdemsById(req, res) {
         try {
-            /*const categoria = await Categoria.find({
-                where: {
-                    id: req.params.categoriaId
-                }
-            });*/
             const ordem = await Ordem.findAll({
                 where: {
                     id: req.params.categoriaId
                 }
             });
-            /*const ordem = await Ordem.find({
-                where: {
-                    id: req.params.id
-                }
-            })*/
 
             res.status(200).json(ordem)
-                //res.status(200).json(ordem)
 
-            // Quero testar algo aqui
-            /*
-            if (categoties) {
-                const resp = await Ordem.findAll({ categoriaId: req.params.categoriaId })
-                    /*  const ordems = []
-                      ordems.push(resp)*/
-            /*
-                console.log(resp)
-                res.status(201).send(resp);
-            } else {
-                res.status(404).send("Category Not Found")
-            }
-            */
         } catch (e) {
             console.log(e);
             res.status(500).send(e);
@@ -56,10 +32,8 @@ module.exports = {
 
             if (categoties) {
                 const resp = await Ordem.findAll({
-                        categoriaId: req.params.categoriaId
-                    })
-                    /*  const ordems = []
-                      ordems.push(resp)*/
+                    categoriaId: req.params.categoriaId
+                })
                 console.log(resp)
                 res.status(201).send(resp);
             } else {

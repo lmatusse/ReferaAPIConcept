@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 require('./server/routes')(app);
 
-const PORT = 8082;
+const PORT = 8080;
 app.listen(PORT, () => {
     console.log(` Hello, Server is listening to port ${PORT}`)
 })
