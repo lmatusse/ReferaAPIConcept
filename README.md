@@ -49,7 +49,7 @@ Once the app on GitHub is successfully connected to my Heroku account, I clicked
 
 And I selected the Enable Automatic Deploys option, this will make every time I perform a push to the GitHub repository it will update on Heroku as well.
 
-(https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png)
+[Database Structure](https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png)
 
 
 
