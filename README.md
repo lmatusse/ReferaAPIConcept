@@ -27,6 +27,15 @@ To create tables in database automatically
 $ npm run dev or node index.js
 
 ---
+#### Inserte the categories at database
+It is necessary to create the categories, I don't think it's advisable to let a user have this access, but rather choose a category and not create it, but let an admin do it. For that I leave the json code so that using insumnia or Postman ou other do the insertion of the categories in the database. You can insert one at a time
+{ "name":"Marketing"},
+		{"name":"Hidraulica"},
+		{"name":"Infiltração"},
+		{"name":"Eletrica"},
+		{"name":"Retirada de Mobilia"}
+And you will see creating the Order to select the category that you want
+---
 ##### To deploy Aplication
 
 

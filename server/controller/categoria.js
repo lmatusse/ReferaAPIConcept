@@ -26,7 +26,7 @@ module.exports = {
         try {
             const categories = await Categoria
                 .create({
-                    name: req.body.name,
+                    name: req.body.name
                 });
 
             res.status(201).send(categories);
