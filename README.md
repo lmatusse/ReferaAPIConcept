@@ -58,7 +58,9 @@ And I selected the Enable Automatic Deploys option, this will make every time I 
 
 Database structure considering the above points
 [Database Structure]
-<img src="https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png" width="100px" heigth="100px">
+
+<img src="https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png" width="300px" heigth="300px">
+
 
 NB: I put the basic attributes just for the illustration already in the development would have more attributes.
 
