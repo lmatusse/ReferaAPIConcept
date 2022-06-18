@@ -23,7 +23,7 @@ To create tables
 #### To Run Application
 
 $ npm run dev or node index.js
-```
+
 ---
 ##### To deploy Aplication
 
@@ -49,8 +49,7 @@ Once the app on GitHub is successfully connected to my Heroku account, I clicked
 And I selected the Enable Automatic Deploys option, this will make every time I perform a push to the GitHub repository it will update on Heroku as well.
 
 
-
-
+---
 ###### Describe how you would structure the database to account for 
     • Real estate agency registration data 
     • Company registration data 
@@ -60,12 +59,10 @@ And I selected the Enable Automatic Deploys option, this will make every time I 
 Database structure considering the above points
 [Database Structure](https://github.com/lmatusse/ReferaAPIConcept/blob/master/Estruturadb.png)
 
-
-	
 NB: I put the basic attributes just for the illustration already in the development would have more attributes.
-```
 
-####### Describe what needs to be changed on the API you implemented
+---
+###### Describe what needs to be changed on the API you implemented
 
 I would need to create models and migrations to create the tables with the proper relationships specified in model in the referaApi database.
 With the relationship between ordem and company it is from ManyToMany as specified in the diagram above and we will have a model and a company_order migration that will have the ids of the entities involved to reference them.
@@ -83,6 +80,6 @@ In the routes/index file I would add the endpoints referring to the created cont
 
 
 
-
-####### Difficulties:
+---
+###### Difficulties:
 I had some difficulties in building the api but nothing that I couldn't solve, but I couldn't return the category name in the table.
